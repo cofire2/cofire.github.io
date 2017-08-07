@@ -1,0 +1,16 @@
+{% assign my = site.my %}
+<footer id="l-footer">
+    <div class="container">
+        <div class="row">
+        <p id="legal">
+            Copyright (c) 2015 {{ my.displayName }} | Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="http://github.com">GitHub</a> | designed &amp; build by <a href="http://cofire.github.io">cofire</a>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{crturl}}javascripts/base.js"></script>
+
+{% if site.mode != 'dev' %}
+<!-- 百度统计 -->
+<script type="text/javascript" src="{{crturl}}javascripts/baidu_statistics.js"></script>
+{% endif %}
