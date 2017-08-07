@@ -4207,7 +4207,7 @@ ul {
   color: white;
 }
 #l-header h1 {
-  margin-top: 0;
+  margin-top: 1.5rem;
   margin-bottom: 35px;
   font: normal small-caps bold 17rem/9.5rem "verdana",helvetica, sans-serif;
   letter-spacing: -1rem;
@@ -4344,7 +4344,7 @@ ul {
     top: 0;
     width: 100%;
     padding-top: 0;
-    background-color: rgba(44, 63, 74, 0.6);
+    /*background-color: rgba(44, 63, 74, 0.6);*/
   }
   #l-header nav > ul > li {
     text-align: center;
@@ -4485,7 +4485,11 @@ ul {
   height: 300px;
 }
 #l-main div#whoops h1 {
-  font-size: 6rem;
+  font-size: 4rem;
+}
+#l-main div#whoops i.fa.fa-cog.fa-spin {
+  font-size: 10rem;
+  color: #1C3340;
 }
 #l-main div#building {
   text-align: center;
@@ -4499,6 +4503,7 @@ ul {
   margin: 0 auto;
   max-width: auto;
   margin-top: 3rem;
+  text-align: center;
 }
 #l-main div#paginator a, #l-main div#paginator span {
   min-width: 2rem;
