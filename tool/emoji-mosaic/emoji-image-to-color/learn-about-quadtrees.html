@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+	<script src="quadtree.js"></script>
+</head>
+<body>
+<script>
+data = [];
+for ( i = 0; i <= 1000; i++ ) {
+	for ( j = 0; j <= 500; j++ ) {
+		data.push( [i,j] );
+	}
+}
+var x = quadtree(data);
+</script>
+</body>
+</html>
