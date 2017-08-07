@@ -1,6 +1,0 @@
-*.lock
-.DS_Store
-_site/
-.sass-cache/
-_config.yml
-Gemfile
